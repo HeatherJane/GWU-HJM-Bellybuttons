@@ -49,7 +49,7 @@ function getPlots(id) {
               y: OTU_id,
               text: labels,
               marker: {
-              color: 'blue'},
+              color: 'rgba(43,135,166,1)'},
               type:"bar",
               orientation: "h",
           };

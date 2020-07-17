@@ -1,4 +1,4 @@
-// Wash guage
+// Wash Guage
 
 function buildGauge(WFREQ) {
     // Enter the Washing Frequency Between 0 and 180
@@ -32,7 +32,7 @@ function buildGauge(WFREQ) {
         {
             values: [50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50],
             rotation: 90,
-            text:["8-9", "7-8", "6-7", "5-6", "4-5", "3-4", "2-3", "1-2", "0-1", ""],
+            text:["8-9", "7-8", "6-7", "5-6", "4-5", "3-4", "2-3", "1-2", "0-1 Gross", ""],
             textinfo: "text",
             textposition: "inside",
             marker: {
@@ -45,9 +45,9 @@ function buildGauge(WFREQ) {
                     "rgba(202,209,95,.5)",
                     "rgba(210,206,145,.5)",
                     "rgba(232,226,202,.5)",
-                    "rgba(240, 230,215,.5)",
+                    "rgb(255, 0, 0)",
                     "rgba(255,255,255,0)"
-                ]
+                    ]
             },
             labels:["8-9", "7-8", "6-7", "5-6", "4-5", "3-4", "2-3", "1-2", "0-1", ""],
             hoverinfo: "label",
